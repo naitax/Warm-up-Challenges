@@ -13,7 +13,7 @@ int main()
         cin >> number;
         arr[number]++; 
     }
-    for (int i = 0; i < 100; i++)
+    for (int i = 0; i <= 100; i++)
     {
         results += arr[i] / 2;
     }
